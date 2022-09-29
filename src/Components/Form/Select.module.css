@@ -1,0 +1,17 @@
+.select label{
+  display: block;
+  font-size: 1rem;
+  margin-top:  1.25rem;
+}
+
+.select select{
+  background: #EEEEEE;
+  border-radius: 4px;
+  border: 2px solid #EEEEEE ;
+  display: block;
+  height: 3rem;
+  margin: 10px 0;
+  outline: none;
+  padding: 0 15px;
+  width: 21rem;
+}

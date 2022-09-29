@@ -1,0 +1,27 @@
+.feedList{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px 0;
+}
+
+
+.notFoundPosts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  font-size: 2rem;
+  
+}
+
+@media  (max-width: 1024px){
+  .notFoundPosts{
+    text-align: center;
+  }
+  .feedList{
+    display: flex;
+    flex-direction: column;
+  }
+}
+

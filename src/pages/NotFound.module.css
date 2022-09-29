@@ -1,0 +1,28 @@
+.erroGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 80vh;
+  text-align: center;
+}
+
+@media  (max-width: 1024px){
+  .erroGrid{
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+    justify-content: center;
+  }
+  .erroGrid img{
+    display: none;
+  }
+}
+
+.erroSubtitle{
+  font-size: 1.5rem;
+}
+
+.erroTitle{
+  font-size: 10rem;
+}

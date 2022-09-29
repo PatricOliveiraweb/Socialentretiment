@@ -1,0 +1,35 @@
+.nav{
+
+
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  width: 15rem;
+  margin: 1rem 0;
+  margin-left: auto;
+}
+.nav button,nav a{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: .3s ease-in-out;
+}
+.nav  svg{
+  width: 2rem;
+  height: 2rem;
+  fill: #CA221F;
+  transition: .3s ease-in-out;
+}
+
+.nav button:hover,  .nav a:hover{
+  background:  #CA221F;
+  box-shadow: 0px 0px 10px #CA221F;
+}
+
+.nav button:hover svg, .nav a:hover svg{
+  fill: #fff;
+}

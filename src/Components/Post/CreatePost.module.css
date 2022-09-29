@@ -1,0 +1,60 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+.side{
+  text-align: right;
+}
+
+.form button{
+margin-left: auto;
+}
+
+
+.textarea{
+  display: block;
+  background: #EEEEEE;
+  resize: none;
+  height: 12rem;
+  width: 21rem;
+  border-radius: 4px;
+  border: 2px solid #EEEEEE ;
+  outline: none;
+  margin-top: 1rem;
+  padding:10px;
+  font-size: 1rem;
+}
+
+
+.textarea:hover, .textarea:focus{
+  border: #CA221F;
+  box-shadow: 0 0 6px 4px #CA221F;
+
+}
+
+.label{
+  margin-top:  1.25rem;
+  font-size: 1rem;
+  display: block;
+}
+.span{
+  font-size: .6rem;
+}
+.span{
+  text-align: right;
+  width: 20rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+@media  (max-width: 1024px){
+ .grid{
+  display: flex;
+  flex-direction: column;
+ }
+ .side{
+  text-align: left;
+ }
+}

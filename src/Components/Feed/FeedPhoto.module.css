@@ -1,0 +1,59 @@
+.feedPhoto{
+  cursor: pointer;
+  display: block;
+  height: 17.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.feedPhoto img{
+  height: 100%;
+  object-fit: cover;
+  transition: .3s ease-in-out;
+  width: 100%;
+}
+
+
+.feedPhoto:nth-child(1){
+  grid-column: span 3;
+  height: 28rem;
+}
+.feedPhoto:nth-child(n+2) h2{
+ font-size:1.3rem;
+}
+
+.subtitle{
+  align-items: flex-end;
+  background: rgba(202,34,31, 0.7);
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  left: 0;
+  opacity: 0;
+  padding: 10px ;
+  position: absolute;
+  transform: translateY(100px);
+  transition: .3s ease-in-out;
+  width: 100%;
+}
+
+.feedPhoto:hover img{
+  transform: scale(1.1);
+}
+
+.feedPhoto:hover .subtitle{
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+.feedPhoto:nth-child(1) .subtitle{
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+@media  (max-width: 1024px){
+  .subtitle{
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}

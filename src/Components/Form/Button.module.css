@@ -1,0 +1,29 @@
+.button{
+  color: #fff;  
+  background: #CA221F;
+  border: 1px solid #CA221F;
+  font-size: 1.1rem;
+  padding: 15px 35px;
+  border-radius: 4px;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover{
+  color: #CA221F;
+  background: #fff;
+}
+
+
+.button:disabled{
+  color: #ad413f;
+  background: #fff;
+  cursor: wait;
+}
+
+
+@media  (max-width: 1024px){
+ .button{
+  margin: 20px 0 ;
+ }
+}
